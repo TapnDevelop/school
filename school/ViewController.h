@@ -8,6 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    CGPoint position;
+    NSTimer *timer;
+    int i;
+}
+
+@property (strong, nonatomic) IBOutlet UIImageView *backGround;
+@property (strong, nonatomic) IBOutlet UIImageView *stickMan;
+
+@property (nonatomic, retain) NSTimer * timer;
+
+- (IBAction)moveUp:(id)sender;
+- (IBAction)moveRight:(id)sender;
+- (IBAction)moveDown:(id)sender;
+- (IBAction)moveLeft:(id)sender;
 
 @end

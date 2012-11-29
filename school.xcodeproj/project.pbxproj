@@ -18,6 +18,8 @@
 		51B5AFC9166688AE00227C20 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51B5AFC8166688AE00227C20 /* Default-568h@2x.png */; };
 		51B5AFCC166688AE00227C20 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51B5AFCA166688AE00227C20 /* MainStoryboard.storyboard */; };
 		51B5AFCF166688AE00227C20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B5AFCE166688AE00227C20 /* ViewController.m */; };
+		51B5AFE116668DD500227C20 /* stickman.png in Resources */ = {isa = PBXBuildFile; fileRef = 51B5AFE016668DD500227C20 /* stickman.png */; };
+		51B5AFE31666AE8B00227C20 /* backWC.png in Resources */ = {isa = PBXBuildFile; fileRef = 51B5AFE21666AE8B00227C20 /* backWC.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		51B5AFCB166688AE00227C20 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		51B5AFCD166688AE00227C20 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		51B5AFCE166688AE00227C20 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		51B5AFE016668DD500227C20 /* stickman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stickman.png; path = ../../../../Downloads/stickman.png; sourceTree = "<group>"; };
+		51B5AFE21666AE8B00227C20 /* backWC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backWC.png; path = ../backWC.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		51B5AFA6166688AE00227C20 = {
 			isa = PBXGroup;
 			children = (
+				51B5AFD5166688ED00227C20 /* resources */,
 				51B5AFB8166688AE00227C20 /* school */,
 				51B5AFB1166688AE00227C20 /* Frameworks */,
 				51B5AFB0166688AE00227C20 /* Products */,
@@ -105,6 +110,15 @@
 				51B5AFC8166688AE00227C20 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51B5AFD5166688ED00227C20 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				51B5AFE21666AE8B00227C20 /* backWC.png */,
+				51B5AFE016668DD500227C20 /* stickman.png */,
+			);
+			name = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +177,8 @@
 				51B5AFC7166688AE00227C20 /* Default@2x.png in Resources */,
 				51B5AFC9166688AE00227C20 /* Default-568h@2x.png in Resources */,
 				51B5AFCC166688AE00227C20 /* MainStoryboard.storyboard in Resources */,
+				51B5AFE116668DD500227C20 /* stickman.png in Resources */,
+				51B5AFE31666AE8B00227C20 /* backWC.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +314,7 @@
 				51B5AFD4166688AE00227C20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
